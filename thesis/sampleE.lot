@@ -1,0 +1,14 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces The interpretation of the FRES}}{10}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces The RMSE for all the collaborative filtering algorithms}}{38}
+\contentsline {table}{\numberline {6.2}{\ignorespaces The RMSE of KNNWithZScore using leave-p-out cross validation}}{39}
+\contentsline {table}{\numberline {6.3}{\ignorespaces The coefficient of determination of the linear regression model and the best collaborative filtering model}}{40}
+\contentsline {table}{\numberline {6.4}{\ignorespaces The accuracy of ranking the articles using the linear regression model, Collaborative Filtering with Carver's Relative Difficulty, and Collaborative Filtering with the Weighted Relative Difficulty}}{41}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

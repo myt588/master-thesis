@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of the relative difficulty and the general difficulty}}{11}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A typical movie rating recommedation matrix}}{12}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The basic idea of collabrative filtering}}{13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The interface of translation annotation module in Kindle}}{14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The overall system design schmatic}}{20}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The proposed translation annotation module vs the translation annotation module in Kindle}}{22}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A recommedation matrix filled with the relative difficulty}}{23}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A box plot of user's relative difficulty distribution on of each reading}}{24}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Plots of relative difficulty vs user's language level measured in user's total number of unknown clickings}}{25}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Features used in linear regression model: the user feature 0-1000 indicates the number of unknown clickings this user made in total that has a frequency between 0 and 1000, the article feature 0-1000 indicates the number of words that this articles contains with a frequency between 0 to 1000}}{26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Reading readiablity calculated using Flesch-Kincaid Algorithm}}{29}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Reading readiablity calculated using Lexile Framework}}{29}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces User data collection procedure}}{31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Age distribution of the participants}}{34}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Education distribution of the participants}}{35}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The relative difficulty vs reading readability}}{35}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Plots of every article's relative difficulty for all users }}{36}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces A typical sparsed recommendation matrix}}{37}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces The recommedation matrix in this study}}{37}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

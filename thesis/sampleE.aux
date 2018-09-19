@@ -1,0 +1,295 @@
+\relax 
+\citation{chi2007designing}
+\citation{Klausmeier1977}
+\citation{Wu2004}
+\citation{Liu2009}
+\citation{Hsu2008}
+\citation{Heilman2007}
+\citation{Shinohara2016}
+\citation{Luo2016}
+\citation{Kuo2014}
+\citation{Ostendorf2005}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\nobreakspace  {}1}Introduction}{1}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\citation{Hwang2010}
+\citation{Hwang2008}
+\citation{Kuo2014}
+\citation{Newsela}
+\citation{Ostendorf2005}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Motivating problem}{2}}
+\citation{Carver1994}
+\citation{Carver1994}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Solution by this thesis}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{What's a good metric for distance between a user and a reading?}{3}}
+\citation{Kohavi1995}
+\@writefile{toc}{\contentsline {subsubsection}{How to achieve automation in constructing the user profile?}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{How accurate is the proposed estimator at predicting relative difficulty?}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{Can proposed system be able to adapt to user's profile change?}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{How good is the proposed recommendation system?}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Contributions}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{Proposed a robust run-time estimator for relative difficulty}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{A recommendation system based on the run-time estimator}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{Various attempts on different estimators to find the best one}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{Dataset Collection}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}The structure of this thesis}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{Chapter 2: Problem Settings}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{Chapter 3: Literature Review}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{Chapter 4: Recommendation Based on Weighted Relatvie Difficulty}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{Chapter 5: Dataset and Data Collection Process}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{Chapter 6: Results and System Evaluation}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{Chapter 7: Conclusion}{6}}
+\citation{Coursera}
+\citation{Udemy}
+\citation{Teachable}
+\citation{chi2007designing}
+\citation{Hsu2008}
+\citation{Liu2009}
+\citation{Hsu2013}
+\citation{Tan1998}
+\citation{Kuo2014}
+\citation{Hsu2008}
+\citation{Hsu2013}
+\citation{Kuo2014}
+\citation{Hwang2010}
+\citation{Coursera}
+\citation{Udemy}
+\citation{Teachable}
+\citation{Newsela}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\nobreakspace  {}2}Problem Settings}{7}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {subsubsection}{Are the current online article recommendation systems suitable to users reading articles in their second language?}{7}}
+\citation{Shinohara2016}
+\citation{Luo2016}
+\citation{Carver1994}
+\citation{Heilman2007}
+\citation{DaleChall1995}
+\citation{DaleChall1948}
+\citation{Kincaid1975}
+\citation{Lexile1996}
+\citation{Ostendorf2005}
+\citation{Huang2011}
+\citation{ElenaSowmya}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\nobreakspace  {}3}Literature Review}{9}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Overview}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Article readability}{9}}
+\citation{flesch1979write}
+\citation{LexileAnalyzer}
+\citation{Yoshimura2015}
+\citation{Hwang2008}
+\citation{Hwang2010}
+\citation{Kuo2014}
+\citation{DaleChall1995}
+\citation{DaleChall1948}
+\citation{Kincaid1975}
+\citation{Lexile1996}
+\citation{Carver1994}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces  The interpretation of the FRES}}{10}}
+\newlabel{table:flesch_kincaid}{{3.1}{10}}
+\newlabel{eq:flesch_kincaid}{{3.1}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}User language level}{10}}
+\citation{Carver1994}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces  Illustration of the relative difficulty and the general difficulty}}{11}}
+\newlabel{figure:relative_vs_general}{{3.1}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Relative difficulty}{11}}
+\citation{Ricci2011}
+\citation{Huang2009}
+\citation{Makany2009}
+\citation{Hsu2013}
+\citation{Dror2008}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces  A typical movie rating recommedation matrix}}{12}}
+\newlabel{figure:rating_matrix}{{3.2}{12}}
+\newlabel{eq:carver_relative_difficulty}{{3.2}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Collaborative filtering}{12}}
+\newlabel{eq:cosine_similarity}{{3.3}{12}}
+\newlabel{eq:euclidean}{{3.4}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces  The basic idea of collabrative filtering}}{13}}
+\newlabel{figure:collabrative_filering_explain}{{3.3}{13}}
+\citation{Brown1978}
+\citation{Quade1996}
+\citation{Tang2005}
+\citation{Hsu2013}
+\citation{Kuo2014}
+\citation{Nguyen2010}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces  The interface of translation annotation module in Kindle}}{14}}
+\newlabel{figure:kindle}{{3.4}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Computerized annotations}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.7}Existing personalized recommendation system}{14}}
+\citation{jugo2016increasing}
+\citation{Kuo2014}
+\citation{Krashen1987}
+\citation{Kuo2014}
+\citation{Hwang2010}
+\@writefile{toc}{\contentsline {section}{\numberline {3.8}Limitation of the existing methods}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{Not applicable to a large-scale user application}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{Not capable of updating user profile change later on}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{No accurate metric to determine the distance between a user and a reading}{16}}
+\citation{liu2010personalized}
+\citation{liu2010personalized}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\nobreakspace  {}4}Recommendation Beased on Weighed Relative Difficulty}{17}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Overview}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{Tracking user's clicking}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{The length of time that a user has spent on a reading}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{Whether a user has commented on an article}{17}}
+\citation{Ricci2011}
+\citation{Csikszentmihalyi2002}
+\citation{Csikszentmihalyi1997}
+\citation{Csikszentmihalyi1975}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces  The overall system design schmatic}}{20}}
+\newlabel{figure:system_design_schmatic}{{4.1}{20}}
+\citation{Carver1994}
+\citation{Kindle}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Translation annotation module}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Relative difficulty vs weighted relative difficulty}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces  The proposed translation annotation module vs the translation annotation module in Kindle}}{22}}
+\newlabel{figure:translation_module_vs_kindle}{{4.2}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces  A recommedation matrix filled with the relative difficulty}}{23}}
+\newlabel{figure:relative_difficulty_matrix}{{4.3}{23}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}A run-time estimator of relative difficulty}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Collaborative Filtering}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces  A box plot of user's relative difficulty distribution on of each reading}}{24}}
+\newlabel{figure:all_RD_rid}{{4.4}{24}}
+\newlabel{eq:carver_relative_difficulty_1}{{4.1}{24}}
+\newlabel{eq:weighted_relative_difficulty}{{4.2}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Linear Regression}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces  Plots of relative difficulty vs user's language level measured in user's total number of unknown clickings}}{25}}
+\newlabel{figure:each_rd_vs_uid}{{4.5}{25}}
+\citation{Tan1998}
+\citation{Klausmeier1977}
+\citation{Kuo2014}
+\citation{Tan1998}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces  Features used in linear regression model: the user feature 0-1000 indicates the number of unknown clickings this user made in total that has a frequency between 0 and 1000, the article feature 0-1000 indicates the number of words that this articles contains with a frequency between 0 to 1000}}{26}}
+\newlabel{figure:linear_features}{{4.6}{26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}A recommendation system based on the run-time estimator of relative difficulty}{26}}
+\citation{Hwang2010}
+\citation{Kuo2014}
+\citation{Hwang2010}
+\citation{Kuo2014}
+\citation{Newsela}
+\citation{Kindle}
+\citation{Seed}
+\citation{dataset}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\nobreakspace  {}5}Dataset and Data Collection Process}{28}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\citation{Kincaid1975}
+\citation{Lexile1996}
+\citation{K12Reader}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces  Reading readiablity calculated using Flesch-Kincaid Algorithm}}{29}}
+\newlabel{figure:fk_rid}{{5.1}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces  Reading readiablity calculated using Lexile Framework}}{29}}
+\newlabel{figure:lexile_rid}{{5.2}{29}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Article data}{29}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}User data collection}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Instruction for the experiment and user agreement}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}User registration}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Collecting user's basic information}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces  User data collection procedure}}{31}}
+\newlabel{figure:data_collection_procedure}{{5.3}{31}}
+\citation{Carver1994}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}Reading the articles}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.5}Questionnaire after each reading}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.6}Reading data preprocessing}{32}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}User data validation}{32}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\nobreakspace  {}6}Results and System Evaluation}{34}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Summary of the users' basic information}{34}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Demonstration of similarity in users' relative difficulty}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces  Age distribution of the participants}}{34}}
+\newlabel{figure:age_distribution}{{6.1}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces  Education distribution of the participants}}{35}}
+\newlabel{figure:education_distribution}{{6.2}{35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces  The relative difficulty vs reading readability}}{35}}
+\newlabel{figure:all_RD_rid}{{6.3}{35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces  Plots of every article's relative difficulty for all users }}{36}}
+\newlabel{figure:user_RD_similarity}{{6.4}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces  A typical sparsed recommendation matrix}}{37}}
+\newlabel{figure:matrix_sparse}{{6.5}{37}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces  The recommedation matrix in this study}}{37}}
+\newlabel{figure:matrix_full}{{6.6}{37}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Estimator evaluation}{37}}
+\citation{Salakhutdinov2007}
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces  The RMSE for all the collaborative filtering algorithms}}{38}}
+\newlabel{table:rmse_cf_algo}{{6.1}{38}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}How accurate is the proposed estimator at predicting relative difficulty?}{38}}
+\newlabel{eq:rmse}{{6.1}{38}}
+\citation{Glantz1990}
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces  The RMSE of KNNWithZScore using leave-p-out cross validation}}{39}}
+\newlabel{table:rmse_cf_algo_leave_p_out}{{6.2}{39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Can proposed system be able to adapt to user's profile change?}{39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Evaluation of the linear regression model}{39}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.3}{\ignorespaces  The coefficient of determination of the linear regression model and the best collaborative filtering model}}{40}}
+\newlabel{table:r2_linear_vs_cf}{{6.3}{40}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Evaluation of the recommedation system}{40}}
+\@writefile{toc}{\contentsline {subsubsection}{How good is the proposed recommendation system?}{40}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.4}{\ignorespaces  The accuracy of ranking the articles using the linear regression model, Collaborative Filtering with Carver's Relative Difficulty, and Collaborative Filtering with the Weighted Relative Difficulty}}{41}}
+\newlabel{table:accuracy_ranking_linear_vs_cf}{{6.4}{41}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\nobreakspace  {}7}Conclusion}{42}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Limitation}{42}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Future work}{42}}
+\bibstyle{unsrt}
+\bibdata{sampleE}
+\bibcite{chi2007designing}{1}
+\bibcite{Klausmeier1977}{2}
+\bibcite{Wu2004}{3}
+\bibcite{Liu2009}{4}
+\bibcite{Hsu2008}{5}
+\bibcite{Heilman2007}{6}
+\bibcite{Shinohara2016}{7}
+\bibcite{Luo2016}{8}
+\bibcite{Kuo2014}{9}
+\bibcite{Ostendorf2005}{10}
+\bibcite{Hwang2010}{11}
+\bibcite{Hwang2008}{12}
+\bibcite{Newsela}{13}
+\bibcite{Carver1994}{14}
+\bibcite{Kohavi1995}{15}
+\bibcite{Coursera}{16}
+\bibcite{Udemy}{17}
+\bibcite{Teachable}{18}
+\bibcite{Hsu2013}{19}
+\@writefile{toc}{\contentsline {chapter}{References}{44}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\bibcite{Tan1998}{20}
+\bibcite{DaleChall1995}{21}
+\bibcite{DaleChall1948}{22}
+\bibcite{Kincaid1975}{23}
+\bibcite{Lexile1996}{24}
+\bibcite{Huang2011}{25}
+\bibcite{ElenaSowmya}{26}
+\bibcite{flesch1979write}{27}
+\bibcite{LexileAnalyzer}{28}
+\bibcite{Yoshimura2015}{29}
+\bibcite{Ricci2011}{30}
+\bibcite{Huang2009}{31}
+\bibcite{Makany2009}{32}
+\bibcite{Dror2008}{33}
+\bibcite{Brown1978}{34}
+\bibcite{Quade1996}{35}
+\bibcite{Tang2005}{36}
+\bibcite{Nguyen2010}{37}
+\bibcite{jugo2016increasing}{38}
+\bibcite{Krashen1987}{39}
+\bibcite{liu2010personalized}{40}
+\bibcite{Csikszentmihalyi2002}{41}
+\bibcite{Csikszentmihalyi1997}{42}
+\bibcite{Csikszentmihalyi1975}{43}
+\bibcite{Kindle}{44}
+\bibcite{Seed}{45}
+\bibcite{dataset}{46}
+\bibcite{K12Reader}{47}
+\bibcite{Salakhutdinov2007}{48}
+\bibcite{Glantz1990}{49}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}An example of a validated user's dataset obtained in this research}{48}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\gdef \@lastoftotalpage{0}

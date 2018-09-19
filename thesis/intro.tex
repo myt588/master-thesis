@@ -1,0 +1,148 @@
+\chapter{Introduction}
+
+% importance of reading in natural language learning
+The process of natural language learning can be mainly split into four parts, listening, speaking, reading, and writing. Among these four topics, reading is often recognized as the most important aspect \cite{chi2007designing}. To train the reading ability of individual students, and to increase the joy of language learning, a variety of readings covering different topics are often given to the students as in class or outside the class. Preparing these articles to be read by the students has become an important task in conducting language learning activities in school. 
+
+% problem with traditional learning, not personalization
+One critical problem in traditional natural language learning is the ignorance of personal factors. \cite{Klausmeier1977, Wu2004} It is often the case that teachers hand out same instructional materials, especially reading articles, for all the student to study. \cite{Liu2009} This results in students with higher language skills find the readings to be too easy while students with lower language skills find the readings to be too difficult. In either case, the too easy or too difficult material may cause students to lose interest in keep on learning the language. Researches have shown that it is not appropriate to give every student the same reading articles because every student's language competence, personal interest, and needs are quite different. \cite{Hsu2008, Heilman2007} Hence, to improve students' reading experience, it is crucial to provide personalized readings with appropriate degrees of difficulty to the learners according to their current skill level.
+
+% new ways of learning the language and the problem
+Computer technology has always been regarded as a viable support for meaningful educational experiences. The field of teaching/learning natural languages, as a crucial part of education, contains many applications and researches using computer technology. Shinohara and Luo both provided innovative ways of improving students' English learning experience. \cite{Shinohara2016, Luo2016} Many other computer-based language learning systems have been proposed in the past decade. Although it is demonstrated that students with different skill levels need to receive different educational materials, most of the online learning platforms and existing researches provide fixed teaching materials to all the users.
+
+% systems with a personalized recommendation
+Among the very few researches which have studied on how to provide the individual user with different language skill level with different learning reading materials, they all proposed the idea of a system that can provide personalized article recommendation based on user's language skill level. To be able to recommend articles with the proper degree of difficulty to each user, the system requires crucial inputs from both users and articles, which can be described as two questions: how good the user is and how hard the article is. With knowing of the level of both side: the user language level and reading difficulty level, the system can finally be able to match a user with specific level to readings with a specific difficulty level. 
+
+% Previous study
+Kuo \cite{Kuo2014} developed a system that can make personalized recommendations based on both user's profile and the difficulty of the readings. In Kuo's research, he adopted the idea of Input hypothesis \cite{Ostendorf2005} which states that when a learner is at stage I, then acquisition occurs when a learner is exposed to comprehensible input that belongs to the level I + 1. Kuo would like to find the reading material that is in the category of level I + 1 for each individual user so that every time a student reads an article, he/she will be able to acquire knowledge. To be able to make such recommendation system, Kuo needs to answer the two questions proposed previous: how good the user is and how hard the article is. The way that Kuo determines each user's skill level is using user's own writing in the second language that they are learning as input; the way that Kuo determines each article's reading difficulty is through lexical and grammatical analysis to find features in the text such as sentence length and word length. Then KNN (k-nearest-neighbor) and Naive Bayes model are used to match a user with specific language level with articles that belong to the category of level I + 1. 
+
+\section{Motivating problem}
+
+As revealed in Kuo's research, many of the personalized article recommendation system \cite{Hwang2010, Hwang2008, Kuo2014} based on user language level requires users to manually construct their user profile through procedures such as pre-tests before they can use the recommendation system itself. According to Liu, this kind of approach places an extra burden on users, something very few are willing to take on. It is possible that Kuo's system will be suitable to environments where user's own writing is easily accessible such as at schools. However, when it comes to an online large scaled language learning system such as Newsela \cite{Newsela}, most of the existing research won't be very helpful due to the fact that complicated procedures before users can start using the application cause bad user experience which leads to losing interested potential users. 
+
+Using a fixed pre-test as user profile also causes a second problem which is forever the same user profile. In a real-world situation, learner's language skill level will decrease or increase depending on many factors such as how much the learner has studied or how familiar learner is with specific topics. However, only obtaining the user profile once at the beginning of the use of the system cannot observe such change in user's profile, which will lead to a situation that learner has improved quite a lot, but the system still recognizes him/her as the level at the very beginning and only recommend materials that are too easy for him/her now. 
+
+Specifically to Kuo's study, input hypothesis \cite{Ostendorf2005} does propose a reasonable foundation for making personalized recommendations based on user language skill level. However, the level system including level I, level I + 1, and level I + 2, suggested in the input hypothesis is very ambiguous. Concept-wise, It is easy to understand that level i is the current user language level; level I + 1 is the level that slightly higher than what user is currently capable of; level I + 2 is the level that is too hard for the user to understand. The variable "i" is a very clear concept, but +1 and +2 are very unclear. it is very hard to decide the +1 for each individual user. 
+
+In summary, in this study, three problems towards the previous studies have been proposed:
+
+\begin{itemize}
+  \item Using pre-test to determine user language level is not applicable to large scaled online user learning system due to its user-unfriendly design;
+  \vspace{10pt}
+  \item Using pre-test to determine user language level will cause the user profile to forever stay the same, which will cause inappropriate recommendation later on when the user language level changes;
+  \vspace{10pt}
+  \item Specifically, towards Kuo's research, the measure called input hypothesis used to categorize the distance between a reading and a user is very ambiguous; a better measure is needed.
+\end{itemize}
+
+Towards the three existing problems, several research questions were proposed as follow:
+
+\begin{itemize}
+  \item What's a good metric for distance between a user and a reading?
+  \vspace{10pt}
+  \item How to achieve automation in constructing user profile
+  \vspace{10pt}
+  \item How accurate is the proposed estimator at predicting relative difficulty?
+  \vspace{10pt}
+  \item Can proposed system be able to adapt to user's profile change?
+  \vspace{10pt}
+  \item How good is the proposed recommendation system?
+\end{itemize}
+
+\section{Solution by this thesis}
+
+To address the problems listed above, this paper suggests a personalized recommendation system that collects user profile at run-time by tracking user's interaction. 
+
+\subsubsection{What's a good metric for distance between a user and a reading?}
+\vspace{10pt}
+The recommendation system proposed in this paper adopts a concept called Relative Difficulty from Carver \cite{Carver1994} stating that there is a relative difficulty between one specific reading to one specific user, and one way of measuring relative difficulty is through the percentage of unknown words that a user has towards a specific reading. The relative difficulty is used in this thesis instead of input hypothesis as a measure to decide the difficulty of a reading corresponding to a user due to the reason that relative difficulty is a much more concrete concept. 
+
+Based on our literature review, it is possible that this thesis is the first study that utilizes the idea of relative difficulty as the base to provide personalized article recommendations to users. Because of being the pioneer in such a method, there doesn't exist any public datasets that provide relevant data for calculating the relative difficulty for each user. Therefore a responsive web application is developed for this study to collect user data for relative difficulty calculation. Originally in Carver's study, the relative difficulty \cite{Carver1994} is measured through experiments where each participant intentionally circles out all the unknown words. To combine this circle action into the modern online web application, a translation annotation module is developed and added to the recommender system. The translation annotation module allows a user to click on an unknown word for a dictionary translation. By tracking the clicks that each user has performed, the system is able to calculate the relative difficulty, which the percentage of unknown words of a reading corresponding to a user. Later in the study, a problem with Carver's definition of relative difficult is revealed. Human errors exist in an online system. Sometimes a user will misclick on a known word; and sometimes even though a word is unknown, a user may decide not to see its translation due to reasons such as laziness or the word doesn't affect the understanding of the article. To mitigate this issue, this study proposed a weighted relative difficulty. In Carver's definition, every unknown word weights the same. In the weighted relative difficulty, word frequency is used; an unknown word with a higher frequency such as "the" will weigh less while word with a lower frequency will weigh more. Both weighted relative difficulty and Carver's relative difficulty are solid measures for the distance between a reading and a user.
+
+\subsubsection{How to achieve automation in constructing the user profile?}
+\vspace{10pt}
+
+The proposed system constantly monitors users' interaction with the system through the translation annotation module. Every time the translation annotation module is triggered by the user, his/her profile is created or updated automatically. These unknown clickings performed by the users were later converted automatically into the relatived difficulty.
+
+\subsubsection{How accurate is the proposed estimator at predicting relative difficulty?}
+\vspace{10pt}
+
+By inviting users to participate in the data collection phase, the final dataset collected includes 269 users reading over 7 different articles with different level of difficulty. The recommendation system in this study labels the relative difficulty of each reading according to each user's current language level. One important thing to be achieved is estimating the relative difficulty of each reading according to each user. In total, 9 different algorithms were evaluated on the same datasets. To evaluate which algorithms estimated the relative difficulty the best on the collect dataset, RMSE (Root Mean Squared Error) and coefficient of determination were used as metrics. Through comparison, a simple linear regression model outperformed all the collaborative filtering based algorithms. 
+
+\subsubsection{Can proposed system be able to adapt to user's profile change?}
+\vspace{10pt}
+
+To show that the proposed recommendation system is capable of changing according to the change of user, the leave-p-out cross-validation \cite{Kohavi1995} is used to check how the estimator will predict when only one reading's relative difficulty is given as input vs when six readings' relative difficulty is given as input. The result shows that the more reading is used as input, the lower the RMSE get indicating that proposed system is capable of changing according to the change of user profile. 
+
+\subsubsection{How good is the proposed recommendation system?}
+\vspace{10pt}
+
+To evaluate how good the recommendation system is, many test subjects were invited to read the articles and rank them based on difficulty. The recommendation system was programmed to rank the readings based on relative difficulty as well. The result of the ranking generated by the recommendation system and actual ranking were compared. The results showed that a recommendation system with KNN-based estimator using weighted relative difficulty outperforms the system using Carver's relative difficulty.
+
+\clearpage
+\section{Contributions}
+
+The contributions of this study is as follow:
+
+\subsubsection{Proposed a robust run-time estimator for relative difficulty}
+\vspace{10pt}
+By adopting and improving the concept from previous researches, specifically the relative difficulty from Carver, the proposed system is capable of estimating the distance between an unique user and an unique reading.
+
+\subsubsection{A recommendation system based on the run-time estimator}
+\vspace{10pt}
+The relative difficulty of the readings in the database are estimated based on user's interaction with the translation annotation module. The system is capable of recommending articles to users based on their language level. Every reading displayed to the users is lebaled with difficulty that is specific to their current language level.
+
+\subsubsection{Various attempts on different estimators to find the best one}
+\vspace{10pt}
+In total, 9 different data models are evaluated as the estimator for the relative difficulty. The RMSE of each estimator shows that the linear regression outperforms the other eight algorithms.
+
+\subsubsection{Dataset Collection}
+\vspace{10pt}
+This study presented a new dataset that doesn't exist publically at the moment. The dataset includes 269 participants read over 7 different articles using the translation annotation module that is proposed in this study. By using the features collected from the translation annotation module, Carver's relative difficulty and proposed weighted relative difficulty are calculated. The dataset also includes the time length that each user takes on reading each article and each user's personally rated reading difficulty.
+
+% misclick robust
+
+\clearpage
+\section{The structure of this thesis}
+
+From the next chapter, we presented the problem setting of this research, the existing studies and their limitations, the proposed method, and evaluations of the proposed method. The specific structure of the rest of this thesis is as follows.
+
+\subsubsection{Chapter 2: Problem Settings}
+\vspace{10pt}
+In this chapter, the problem settings of this study is illustrated
+
+\subsubsection{Chapter 3: Literature Review}
+\vspace{10pt}
+In this chapter, an extensive literature review is presented. 
+
+\subsubsection{Chapter 4: Recommendation Based on Weighted Relatvie Difficulty}
+\vspace{10pt}
+In this chapter, we proposed our system design including the translation annotation module, the relative difficulty estimator, and the recommendation system.
+
+\subsubsection{Chapter 5: Dataset and Data Collection Process}
+\vspace{10pt}
+In this chapter, we describe how we collected the dataset and how these data were processed and filtered before getting the final data that is input into the evaluation phase.
+
+\subsubsection{Chapter 6: Results and System Evaluation}
+\vspace{10pt}
+In this chapter, we illustrated how the proposed method is evaluated by answering the three research questions as follows:
+\begin{enumerate}
+  \item What is a good metric for measuring the distance between a user and a reading?
+  \vspace{10pt}
+  \item How can a personalized article recommendation system based on user language level automatically create and update user profile?
+  \vspace{10pt}
+  \item How accurate is the proposed estimator at predicting relative difficulty?
+  \vspace{10pt}
+  \item Can proposed system be able to adapt to user's profile change?
+  \vspace{10pt}
+  \item How good is the proposed recommendation system?
+\end{enumerate}
+
+\subsubsection{Chapter 7: Conclusion}
+\vspace{10pt}
+Finally, we conclude this thesis in this chapter. The limitation and future work are also presented in this chapter.
+
+
+
+
+
+
+

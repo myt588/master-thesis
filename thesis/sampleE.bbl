@@ -1,0 +1,275 @@
+\begin{thebibliography}{10}
+
+\bibitem{chi2007designing}
+Chen-Chung Chi, Chin-Hwa Kuo, and Chia-Chun Peng.
+\newblock The designing of a web page recommendation system for esl.
+\newblock In {\em Advanced Learning Technologies, 2007. ICALT 2007. Seventh
+  IEEE International Conference on}, pages 730--734. IEEE, 2007.
+
+\bibitem{Klausmeier1977}
+Herbert~J Klausmeier, Richard~A Rossmiller, and Mary Saily.
+\newblock Individually guided education: Concepts and practices.
+\newblock {\em New York: Academic Press}, 1977.
+
+\bibitem{Wu2004}
+Y.~C Wu.
+\newblock The effects of repeated reading and text difficulty on fifth grade
+  reading performance.
+\newblock {\em Bulletin of Educational Psychology}, 35(4):319--336, 2004.
+
+\bibitem{Liu2009}
+Pei-Lin Liu, Chiu-Jung Chen, and Yu-Ju Chang.
+\newblock Effects of a computer-assisted concept mapping learning strategy on
+  efl college students' english reading comprehension.
+\newblock {\em Computers \& Education}, 54(2):436--445, 2009.
+
+\bibitem{Hsu2008}
+Mei-Hua Hsu.
+\newblock A personalized english learning recommender system for efls.
+\newblock {\em Expert Systems with Applications}, 34(1):683--688, 2008.
+
+\bibitem{Heilman2007}
+Michael Heilman, Kevyn Collins-Thompson, Jamie Callan, and Maxine Eskenazi.
+\newblock Combining lexical and grammatical features to improve readability
+  measures for first and second language texts.
+\newblock {\em The Human Language Technology Conference}, 2007.
+
+\bibitem{Shinohara2016}
+Yasuaki Shinohara.
+\newblock Audiovisual training effects for japanese children learning english
+  /r/-/l/.
+\newblock {\em Interspeech}, pages 204--207, 2016.
+
+\bibitem{Luo2016}
+Dean Luo, Ruxin Luo, and Lixin Wang.
+\newblock Naturalness judgement of l2 english through dubbing practice.
+\newblock {\em Interspeech}, pages 200--203, 2016.
+
+\bibitem{Kuo2014}
+Chin-Hwa Kuo and Chen-Chung Chi.
+\newblock Designing a reading material recommendation system for efl learners.
+\newblock {\em Journal of Applied Science and Engineering}, 17(4):371--382,
+  2014.
+
+\bibitem{Ostendorf2005}
+Sarah~E Schwarm and Mari Ostendorf.
+\newblock Reading level assessment using support vector machines and
+  statistical language models.
+\newblock {\em The 43rd Annual Meeting on Association for Computational
+  Linguistics}, 2005.
+
+\bibitem{Hwang2010}
+Ching-Kun Hsu, Gwo-Jen Hwang, and Chih-Kai Chang.
+\newblock Development of a reading material recommendation system based on a
+  knowledge engineering approach.
+\newblock {\em Computers \& Education}, 55(1):76--83, 2010.
+
+\bibitem{Hwang2008}
+Gwo-Jen Hwang, Pei-Shan Tsai, Chin-Chung Tsai, and Judy C.~R. Tseng.
+\newblock A novel approach for assisting teachers in analyzing student
+  web-searching behaviors.
+\newblock {\em Computers \& Education}, 51(2):926--938, 2008.
+
+\bibitem{Newsela}
+Newsela.
+\newblock \url{https://newsela.com/}, 2018.
+
+\bibitem{Carver1994}
+Ronald~P Carver.
+\newblock Percentage of unknown vocabulary words in text as a function of the
+  relative difficulty of the text: Implications for instruction.
+\newblock {\em Journal of Reading Behavior}, 26:413--437, 1994.
+
+\bibitem{Kohavi1995}
+Ron Kohavi.
+\newblock A study of cross-validation and bootstrap for accuracy estimation and
+  model selection.
+\newblock {\em the Fourteenth International Joint Conference on Artificial
+  Intelligence}, (12):1137--1143, 1995.
+
+\bibitem{Coursera}
+Coursera.
+\newblock \url{https://www.coursera.org/}, 2018.
+
+\bibitem{Udemy}
+Udemy.
+\newblock \url{https://www.udemy.com/}, 2018.
+
+\bibitem{Teachable}
+Teachable.
+\newblock \url{https://teachable.com/}, 2018.
+
+\bibitem{Hsu2013}
+Ching-Kun Hsu, Gwo-Jen Hwang, and Chih-Kai Chang.
+\newblock A personalized recommendation-based mobile learning approach to
+  improving the reading performance of efl students.
+\newblock {\em Computers \& Education}, 63:327--336, 2013.
+
+\bibitem{Tan1998}
+Ah-Hwee Tan and Christine Teo.
+\newblock Learning user profiles for personalized information dissemination.
+\newblock In {\em Neural Networks Proceedings, 1998. IEEE World Congress on
+  Computational Intelligence. The 1998 IEEE International Joint Conference on},
+  volume~1, pages 183--188. IEEE, 1998.
+
+\bibitem{DaleChall1995}
+Jeanne~Sternlicht Chall and Edgar Dale.
+\newblock {\em Readability Revisited: The New Dale-Chall Readability Formula}.
+\newblock Brookline Books, Cambridge, MA, 1995.
+
+\bibitem{DaleChall1948}
+Jeanne~Sternlicht Chall and Edgar Dale.
+\newblock A formula for predicting readability.
+\newblock {\em Educational Research Bulletin}, 27(1), 1948.
+
+\bibitem{Kincaid1975}
+J~Peter Kincaid, Robert~P Fishburne~Jr, Richard~L Rogers, and Brad~S Chissom.
+\newblock Derivation of new readability formulas for navy enlisted personnel.
+\newblock {\em Branch Report}, pages 8--75, 1975.
+
+\bibitem{Lexile1996}
+A.~Jackson Stenner.
+\newblock Measuring reading comprehension with the lexile framework.
+\newblock {\em In Fourth North American Conference on Adolescent/Adult
+  Literacy}, 1996.
+
+\bibitem{Huang2011}
+Yi-Ting Huang, Hsiao-Pei Chang, Yeali Sun, and Meng~Chang Chen.
+\newblock A robust estimation scheme of reading diculty for second language
+  learners.
+\newblock {\em Advanced Learning Technologies (ICALT)}, 2011.
+
+\bibitem{ElenaSowmya}
+Ildiko Pil'an, Sowmya Vajjala, and Elena Volodina.
+\newblock A readable read: Automatic assessment of language learning materials
+  based on linguistic complexity.
+\newblock {\em International Journal of Computational Linguistics and
+  Applications}, 2016.
+
+\bibitem{flesch1979write}
+Rudolf~Franz Flesch.
+\newblock {\em How to write plain English: A book for lawyers and consumers}.
+\newblock Harpercollins, 1979.
+
+\bibitem{LexileAnalyzer}
+Seed.
+\newblock \url{https://lexile.com/}, 2016.
+
+\bibitem{Yoshimura2015}
+Kazuyo Yoshimura, Koichi Kise, and Kai Kunze.
+\newblock The eye as the window of the language ability: Estimation of english
+  skills by analyzing eye movement while reading documents.
+\newblock In {\em Document Analysis and Recognition (ICDAR), 2015 13th
+  International Conference on}, pages 251--255. IEEE, 2015.
+
+\bibitem{Ricci2011}
+Francesco Ricci, Lior Rokach, and Bracha Shapira.
+\newblock Introduction to recommender systems handbook.
+\newblock In {\em Recommender systems handbook}, pages 1--35. Springer, 2011.
+
+\bibitem{Huang2009}
+Hsin-chou Huang, Chiou-lan Chern, and Chih-cheng Lin.
+\newblock Efl learners' use of online reading strategies and comprehension of
+  texts: an exploratory study.
+\newblock {\em Computers \& Education}, 52(1):13--26, 2009.
+
+\bibitem{Makany2009}
+Tamas Makany, Jonathan Kemp, and Itiel~E Dror.
+\newblock Optimising the use of note-taking as an external cognitive and for
+  increasing learning.
+\newblock {\em British Journal of Educational Technology}, 40(4):619--635,
+  2009.
+
+\bibitem{Dror2008}
+Itiel Dror and Stevan Harnad.
+\newblock Offloading cognition onto cognitive technology.
+\newblock {\em Distributed cognition: How cognitive technology extends our
+  minds}, pages 1--23, 2008.
+
+\bibitem{Brown1978}
+Ann~L Brown and Sandra~S Smiley.
+\newblock The development of strategies for studying texts.
+\newblock {\em Child Development}, 49(4):1076--1088, 1978.
+
+\bibitem{Quade1996}
+Ann~M Quade.
+\newblock An assessment of retention and depth of processing associated with
+  notetaking using traditional pencil and paper and an on-line notepad during
+  computer-delivered instruction.
+\newblock 1996.
+
+\bibitem{Tang2005}
+Tiffany~Ya Tang and Gordon McCalla.
+\newblock Smart recommendation for an evolving e-learning system.
+\newblock {\em International Journal on E-Learning}, 4(1), 2005.
+
+\bibitem{Nguyen2010}
+Viet~Anh Nguyen, Van~Cong Pham, and Si~Dam Ho.
+\newblock A context-aware mobile learning adaptive system for supporting
+  foreigner learning english.
+\newblock In {\em Computing and Communication Technologies, Research,
+  Innovation, and Vision for the Future (RIVF), 2010 IEEE RIVF International
+  Conference on}, pages 1--6. IEEE, 2010.
+
+\bibitem{jugo2016increasing}
+Igor Jugo, Bo{\v{z}}idar Kova{\v{c}}i{\'c}, and Vanja Slavuj.
+\newblock Increasing the adaptivity of an intelligent tutoring system with
+  educational data mining: A system overview.
+\newblock {\em International Journal of Emerging Technologies in Learning
+  (iJET)}, 11(03):67--70, 2016.
+
+\bibitem{Krashen1987}
+Stephen~D Krashen.
+\newblock {\em Principles and practice in second language acquisition}.
+\newblock New York, 1987.
+
+\bibitem{liu2010personalized}
+Jiahui Liu, Peter Dolan, and Elin~R{\o}nby Pedersen.
+\newblock Personalized news recommendation based on click behavior.
+\newblock In {\em Proceedings of the 15th international conference on
+  Intelligent user interfaces}, pages 31--40. ACM, 2010.
+
+\bibitem{Csikszentmihalyi2002}
+Jeanne Nakamura and Mihaly Csikszentmihalyi.
+\newblock The concept of flow.
+\newblock {\em Handbook of Positive Psychology}, 2002.
+
+\bibitem{Csikszentmihalyi1997}
+Mihaly Csikszentmihalyi.
+\newblock Finding flow.
+\newblock {\em New York: Basic}, 1997.
+
+\bibitem{Csikszentmihalyi1975}
+Mihaly Csikszentmihalyi.
+\newblock Beyond boredom and anxiety.
+\newblock {\em Handbook of Positive Psychology}, 1975.
+
+\bibitem{Kindle}
+Kindle.
+\newblock \url{https://www.amazon.com/Kindle-eBooks/b?ie=UTF8&node=154606011},
+  2018.
+
+\bibitem{Seed}
+Seed.
+\newblock \url{http://a.app.qq.com/o/simple.jsp?pkgname=com.seed.app}, 2018.
+
+\bibitem{dataset}
+Dataset obtained in this research.
+\newblock \url{https://github.com/myt588/research-data}, 2018.
+
+\bibitem{K12Reader}
+K12reader.
+\newblock \url{http://www.k12reader.com/}, 2016.
+
+\bibitem{Salakhutdinov2007}
+Ruslan Salakhutdinov and Andriy Mnih.
+\newblock Probabilistic matrix factorization.
+\newblock {\em the 20th International Conference on Neural Information
+  Processing Systems}, pages 1257--1264, 2007.
+
+\bibitem{Glantz1990}
+Stanton~A. Glantz and Bryan~K. Slinker.
+\newblock {\em Primer of Applied Regression and Analysis of Variance}.
+\newblock McGraw-Hill, 1990.
+
+\end{thebibliography}

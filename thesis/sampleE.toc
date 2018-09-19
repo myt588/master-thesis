@@ -1,0 +1,69 @@
+\contentsline {chapter}{\numberline {Chapter\nobreakspace {}1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Motivating problem}{2}
+\contentsline {section}{\numberline {1.2}Solution by this thesis}{3}
+\contentsline {subsubsection}{What's a good metric for distance between a user and a reading?}{3}
+\contentsline {subsubsection}{How to achieve automation in constructing the user profile?}{4}
+\contentsline {subsubsection}{How accurate is the proposed estimator at predicting relative difficulty?}{4}
+\contentsline {subsubsection}{Can proposed system be able to adapt to user's profile change?}{4}
+\contentsline {subsubsection}{How good is the proposed recommendation system?}{4}
+\contentsline {section}{\numberline {1.3}Contributions}{5}
+\contentsline {subsubsection}{Proposed a robust run-time estimator for relative difficulty}{5}
+\contentsline {subsubsection}{A recommendation system based on the run-time estimator}{5}
+\contentsline {subsubsection}{Various attempts on different estimators to find the best one}{5}
+\contentsline {subsubsection}{Dataset Collection}{5}
+\contentsline {section}{\numberline {1.4}The structure of this thesis}{6}
+\contentsline {subsubsection}{Chapter 2: Problem Settings}{6}
+\contentsline {subsubsection}{Chapter 3: Literature Review}{6}
+\contentsline {subsubsection}{Chapter 4: Recommendation Based on Weighted Relatvie Difficulty}{6}
+\contentsline {subsubsection}{Chapter 5: Dataset and Data Collection Process}{6}
+\contentsline {subsubsection}{Chapter 6: Results and System Evaluation}{6}
+\contentsline {subsubsection}{Chapter 7: Conclusion}{6}
+\contentsline {chapter}{\numberline {Chapter\nobreakspace {}2}Problem Settings}{7}
+\contentsline {subsubsection}{Are the current online article recommendation systems suitable to users reading articles in their second language?}{7}
+\contentsline {chapter}{\numberline {Chapter\nobreakspace {}3}Literature Review}{9}
+\contentsline {section}{\numberline {3.1}Overview}{9}
+\contentsline {section}{\numberline {3.2}Article readability}{9}
+\contentsline {section}{\numberline {3.3}User language level}{10}
+\contentsline {section}{\numberline {3.4}Relative difficulty}{11}
+\contentsline {section}{\numberline {3.5}Collaborative filtering}{12}
+\contentsline {section}{\numberline {3.6}Computerized annotations}{14}
+\contentsline {section}{\numberline {3.7}Existing personalized recommendation system}{14}
+\contentsline {section}{\numberline {3.8}Limitation of the existing methods}{15}
+\contentsline {subsubsection}{Not applicable to a large-scale user application}{15}
+\contentsline {subsubsection}{Not capable of updating user profile change later on}{15}
+\contentsline {subsubsection}{No accurate metric to determine the distance between a user and a reading}{16}
+\contentsline {chapter}{\numberline {Chapter\nobreakspace {}4}Recommendation Beased on Weighed Relative Difficulty}{17}
+\contentsline {section}{\numberline {4.1}Overview}{17}
+\contentsline {subsubsection}{Tracking user's clicking}{17}
+\contentsline {subsubsection}{The length of time that a user has spent on a reading}{17}
+\contentsline {subsubsection}{Whether a user has commented on an article}{17}
+\contentsline {section}{\numberline {4.2}Translation annotation module}{21}
+\contentsline {section}{\numberline {4.3}Relative difficulty vs weighted relative difficulty}{21}
+\contentsline {section}{\numberline {4.4}A run-time estimator of relative difficulty}{23}
+\contentsline {subsection}{\numberline {4.4.1}Collaborative Filtering}{23}
+\contentsline {subsection}{\numberline {4.4.2}Linear Regression}{24}
+\contentsline {subsection}{\numberline {4.4.3}A recommendation system based on the run-time estimator of relative difficulty}{26}
+\contentsline {chapter}{\numberline {Chapter\nobreakspace {}5}Dataset and Data Collection Process}{28}
+\contentsline {section}{\numberline {5.1}Article data}{29}
+\contentsline {section}{\numberline {5.2}User data collection}{30}
+\contentsline {subsection}{\numberline {5.2.1}Instruction for the experiment and user agreement}{30}
+\contentsline {subsection}{\numberline {5.2.2}User registration}{30}
+\contentsline {subsection}{\numberline {5.2.3}Collecting user's basic information}{30}
+\contentsline {subsection}{\numberline {5.2.4}Reading the articles}{32}
+\contentsline {subsection}{\numberline {5.2.5}Questionnaire after each reading}{32}
+\contentsline {subsection}{\numberline {5.2.6}Reading data preprocessing}{32}
+\contentsline {section}{\numberline {5.3}User data validation}{32}
+\contentsline {chapter}{\numberline {Chapter\nobreakspace {}6}Results and System Evaluation}{34}
+\contentsline {section}{\numberline {6.1}Summary of the users' basic information}{34}
+\contentsline {section}{\numberline {6.2}Demonstration of similarity in users' relative difficulty}{34}
+\contentsline {section}{\numberline {6.3}Estimator evaluation}{37}
+\contentsline {subsection}{\numberline {6.3.1}How accurate is the proposed estimator at predicting relative difficulty?}{38}
+\contentsline {subsection}{\numberline {6.3.2}Can proposed system be able to adapt to user's profile change?}{39}
+\contentsline {subsection}{\numberline {6.3.3}Evaluation of the linear regression model}{39}
+\contentsline {section}{\numberline {6.4}Evaluation of the recommedation system}{40}
+\contentsline {subsubsection}{How good is the proposed recommendation system?}{40}
+\contentsline {chapter}{\numberline {Chapter\nobreakspace {}7}Conclusion}{42}
+\contentsline {section}{\numberline {7.1}Limitation}{42}
+\contentsline {section}{\numberline {7.2}Future work}{42}
+\contentsline {chapter}{References}{44}
+\contentsline {chapter}{\numberline {A}An example of a validated user's dataset obtained in this research}{48}

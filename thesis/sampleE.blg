@@ -1,0 +1,50 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: sampleE.aux
+The style file: unsrt.bst
+Database file #1: sampleE.bib
+Warning--there's a number but no volume in Kohavi1995
+Warning--empty journal in Quade1996
+You've used 49 entries,
+            1791 wiz_defined-function locations,
+            728 strings with 11163 characters,
+and the built_in function-call counts, 10203 in all, are:
+= -- 968
+> -- 351
+< -- 12
++ -- 140
+- -- 91
+* -- 558
+:= -- 1515
+add.period$ -- 144
+call.type$ -- 49
+change.case$ -- 45
+chr.to.int$ -- 0
+cite$ -- 51
+duplicate$ -- 499
+empty$ -- 1069
+format.name$ -- 91
+if$ -- 2370
+int.to.chr$ -- 0
+int.to.str$ -- 49
+missing$ -- 44
+newline$ -- 239
+num.names$ -- 40
+pop$ -- 188
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 265
+stack$ -- 0
+substring$ -- 616
+swap$ -- 137
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 99
+width$ -- 51
+write$ -- 507
+is.kanji.str$ -- 0
+(There were 2 warnings)
