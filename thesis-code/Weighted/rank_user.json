@@ -1,0 +1,744 @@
+{
+  "users": [
+    {
+      "user": {
+        "_id": "SfSjQx9tmTC5iedij",
+        "username": "eval1",
+        "profile": {
+          "gender": "\u7537\u6027",
+          "age": "25-34 \u5c81",
+          "grade": "\u7855\u58eb\u5b66\u4f4d",
+          "selfEvaluation": "\u5927\u5b66\u4ee5\u4e0a\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "aMbRvYxv2ks5SbPc2",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530639029016.0,
+          "endTime": 1530639033795.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "a9Zuj26dKMwPmp6vy",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530639045571.0,
+          "endTime": 1530639135021.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "Zp3jCa7bPMb9qxiNv",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530639139916.0,
+          "endTime": 1530639270723.0
+        },
+        "count": 2,
+        "knonws": ["frustrations", "neighborhood"]
+      }, {
+        "performance": {
+          "_id": "M4zQpi3hJXTqzok2D",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530639273476.0,
+          "endTime": 1530639333030.0
+        },
+        "count": 2,
+        "knonws": ["extinction", "endangerment"]
+      }, {
+        "performance": {
+          "_id": "SXtcCwuuzJy66KphJ",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530639337139.0,
+          "endTime": 1530639470420.0
+        },
+        "count": 16,
+        "knonws": ["Indigenous", "abused", "stunning", "treaty", "neglected", "Choctaw", "Cherokee", "Seminole", "Oklahoma", "devastating", "Creek", "Massacre", "Mississippi", "Cheyenne", "Dakota", "Wounded"]
+      }, {
+        "performance": {
+          "_id": "nG4ar2nNQdHJBMcq8",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530639483849.0,
+          "endTime": 1530639573528.0
+        },
+        "count": 3,
+        "knonws": ["Bartering", "Bartering", "interact"]
+      }, {
+        "performance": {
+          "_id": "AnaM8cRjfTWz9YPkn",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530639578068.0,
+          "endTime": 1530639723489.0
+        },
+        "count": 12,
+        "knonws": ["neglected", "menace", "tyranny", "Majesty", "Parliament", "comrades", "utmost", "Gestapo", "odious", "apparatus", "subjugated", "liberation"]
+      }]
+    }, {
+      "user": {
+        "_id": "fuf7PtBAhyKnu8mea",
+        "username": "eval2",
+        "profile": {
+          "gender": "\u7537\u6027",
+          "age": "18-24 \u5c81",
+          "grade": "\u5927\u5b66\u5b66\u4f4d",
+          "selfEvaluation": "\u9ad8\u4e2d\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "cB5bSmGYdfiPag224",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530639764115.0,
+          "endTime": 1530639767263.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "8pfdrY7N8K2ow8EZA",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530639768817.0,
+          "endTime": 1530639771057.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "rT4DCcC6GGvM2iqfo",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530639772557.0,
+          "endTime": 1530639779681.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "jbCtRHdBcg6wu9RfT",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530639781386.0,
+          "endTime": 1530639818725.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "6dYJ5gm4WM3iByWQg",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530639820536.0,
+          "endTime": 1530639856003.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "M6fBtdsYXeFa35pkN",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530639858360.0,
+          "endTime": 1530639882583.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "95BgQfDPMQ7TNmBps",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530639884560.0,
+          "endTime": 1530639907543.0
+        },
+        "count": 0,
+        "knonws": []
+      }]
+    }, {
+      "user": {
+        "_id": "RKDfckQRzfxvY7QrM",
+        "username": "eval3",
+        "profile": {
+          "gender": "\u5973\u6027",
+          "age": "25-34 \u5c81",
+          "grade": "\u9ad8\u4e2d\u672a\u5b8c\u6210",
+          "selfEvaluation": "\u521d\u4e2d\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "DwautPdSLjE7HFxL4",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530640031396.0,
+          "endTime": 1530640050949.0
+        },
+        "count": 2,
+        "knonws": ["took", "chop"]
+      }, {
+        "performance": {
+          "_id": "iRfDuartEBqQRAhCE",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530640275653.0,
+          "endTime": 1530640307734.0
+        },
+        "count": 4,
+        "knonws": ["reasonable", "matter", "subject", "justify"]
+      }, {
+        "performance": {
+          "_id": "59Q8aYYP89EG5zeKz",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530640310470.0,
+          "endTime": 1530640378017.0
+        },
+        "count": 17,
+        "knonws": ["social", "emotions", "activities", "meaningful", "connections", "frustrations", "worries", "focus", "community", "local", "area", "neighborhood", "vacation", "situations", "mayor", "elected", "council"]
+      }, {
+        "performance": {
+          "_id": "sZ79PkmLRKPJFcsdx",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530640379688.0,
+          "endTime": 1530640468145.0
+        },
+        "count": 26,
+        "knonws": ["endangered", "species", "extinction", "Forest", "natural", "threatened", "Swamps", "neighborhoods", "expand", "habitat", "due", "expansion", "convenient", "awareness", "diverse", "generations", "endangerment", "overhunting", "quickly", "extinction", "governments", "countries", "populations", "protected", "Breeding", "organizations"]
+      }, {
+        "performance": {
+          "_id": "GzQ7CMgN3ksqkwEww",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530640470396.0,
+          "endTime": 1530640562466.0
+        },
+        "count": 43,
+        "knonws": ["struggle", "traveled", "pain", "suffering", "endured", "battles", "bloody", "fought", "corner", "claim", "explorers", "culture", "country", "discovered", "tribes", "abused", "Aborigines", "Australia", "Torres", "Strait", "signed", "treaties", "nation", "Unfortunately", "personal", "neglected", "ultimate", "purpose", "explorers", "forced", "marched", "Territory", "Mississippi", "Indian", "Oklahoma", "accomplished", "settlers", "Cheyenne", "Mississippi", "Massacre", "Wounded", "Dakota", "surrendered"]
+      }, {
+        "performance": {
+          "_id": "AxGoMH5xrxZHZngiW",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530640566014.0,
+          "endTime": 1530640567767.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "GjmkpzG8CvMAQXB8Z",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530640569824.0,
+          "endTime": 1530640571284.0
+        },
+        "count": 0,
+        "knonws": []
+      }]
+    }, {
+      "user": {
+        "_id": "hJBQppBgeHuYHbZZK",
+        "username": "eval4",
+        "profile": {
+          "selfEvaluation": "\u9ad8\u4e2d\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "vnpQxgcH4v8YB54ay",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530641164743.0,
+          "endTime": 1530641167184.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "jHNxqcRXJ9vXBX2Yx",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530641168949.0,
+          "endTime": 1530641193864.0
+        },
+        "count": 4,
+        "knonws": ["reasonable", "matter", "sense", "sketch"]
+      }, {
+        "performance": {
+          "_id": "Cr9RnnMYegzuBanuK",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530641197068.0,
+          "endTime": 1530641221011.0
+        },
+        "count": 7,
+        "knonws": ["opinions", "discuss", "meaningful", "frustrations", "focus", "council", "elected"]
+      }, {
+        "performance": {
+          "_id": "kjKSN7bNiA5xeDz4P",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530641223184.0,
+          "endTime": 1530641249149.0
+        },
+        "count": 11,
+        "knonws": ["endangered", "species", "Extinction", "populations", "habitat", "neighborhoods", "consideration", "convenient", "overhunting", "regarding", "Breeding"]
+      }, {
+        "performance": {
+          "_id": "988HY4jbj7apv68jY",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530641252779.0,
+          "endTime": 1530641300016.0
+        },
+        "count": 22,
+        "knonws": ["struggle", "distances", "stunning", "overlooked", "Indigenous", "abused", "Strait", "Islanders", "Unfortunately", "Americans", "personal", "neglected", "Choctaw", "Mississippi", "eastern", "exposure", "accomplished", "Cheyenne", "Massacre", "Lakota", "Wounded", "surrendered"]
+      }, {
+        "performance": {
+          "_id": "TmdepFdGhSg6mrNo6",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530641303142.0,
+          "endTime": 1530641308192.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "eSG4wDo3rtDi7Jj4T",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530641310387.0,
+          "endTime": 1530641312210.0
+        },
+        "count": 0,
+        "knonws": []
+      }]
+    }, {
+      "user": {
+        "_id": "SW5tg4cjpWfnmb6N8",
+        "username": "eval5",
+        "profile": {
+          "selfEvaluation": "\u521d\u4e2d\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "k89MBwKD9i5t5f22b",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530641325071.0,
+          "endTime": 1530641326362.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "aotwEMRkSQZyaibXi",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530641327984.0,
+          "endTime": 1530641330444.0
+        },
+        "count": 1,
+        "knonws": ["justify"]
+      }, {
+        "performance": {
+          "_id": "zQ3xgumxiGCCTXy4n",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530641331790.0,
+          "endTime": 1530641349137.0
+        },
+        "count": 3,
+        "knonws": ["neighborhood", "emotions", "situations"]
+      }, {
+        "performance": {
+          "_id": "DeLzH3GapebsCctSf",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530641350791.0,
+          "endTime": 1530641379772.0
+        },
+        "count": 17,
+        "knonws": ["endangered", "species", "extinction", "destroyed", "threatened", "swamp", "extinction", "considering", "the", "animals", "expansion", "population", "endangerment", "sport", "populations", "endangered", "organizations"]
+      }, {
+        "performance": {
+          "_id": "TwX5rrzRuMeP9GD2g",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530641381776.0,
+          "endTime": 1530641416709.0
+        },
+        "count": 26,
+        "knonws": ["struggle", "for", "explorers", "fought", "suffering", "endured", "overlooked", "thousands", "tribes", "Islanders", "mistake", "government", "document", "Unfortunately", "people", "treaties", "government", "Mississippi", "Cherokee", "Choctaw", "Oklahoma", "accomplished", "exposure", "Massacre", "ashamed", "shocked"]
+      }, {
+        "performance": {
+          "_id": "x6EZgGxqbovyabhAL",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530641418632.0,
+          "endTime": 1530641421463.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "eavaiTvCz6MAytxjo",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530641426892.0,
+          "endTime": 1530641428894.0
+        },
+        "count": 0,
+        "knonws": []
+      }]
+    }, {
+      "user": {
+        "_id": "8jc4ibaReiFWy9Yku",
+        "username": "eval6",
+        "profile": {
+          "selfEvaluation": "\u521d\u4e2d\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "dWn5LEXKcK8pcrMSv",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530641440639.0,
+          "endTime": 1530641442278.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "Sr53fJkXq8P8Br5SZ",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530641445180.0,
+          "endTime": 1530641446500.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "bkTMTbpyxdzyxPs9x",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530641447962.0,
+          "endTime": 1530641452821.0
+        },
+        "count": 1,
+        "knonws": ["frustrations"]
+      }, {
+        "performance": {
+          "_id": "SijqGuhTkcPfSFwpQ",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530641454342.0,
+          "endTime": 1530641470243.0
+        },
+        "count": 1,
+        "knonws": ["Breeding"]
+      }, {
+        "performance": {
+          "_id": "zojtzMpDuJc2J8t9A",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530641472270.0,
+          "endTime": 1530641493073.0
+        },
+        "count": 2,
+        "knonws": ["devastating", "Indigenous"]
+      }, {
+        "performance": {
+          "_id": "ZHYCNF5PXXAmmXQd7",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530641494879.0,
+          "endTime": 1530641496629.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "yBQZB9EJqdGSLAcpx",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530641498696.0,
+          "endTime": 1530641500336.0
+        },
+        "count": 0,
+        "knonws": []
+      }]
+    }, {
+      "user": {
+        "_id": "SM8SP2GgeFnMWPjdr",
+        "username": "eval7",
+        "profile": {
+          "selfEvaluation": "\u521d\u4e2d\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "kSGLaQXhwKiA42WJE",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530641515429.0,
+          "endTime": 1530641517103.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "vDDuXb4yy2JrHzejy",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530641518829.0,
+          "endTime": 1530641522395.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "xcbB3TGsybLi7wtCH",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530641524017.0,
+          "endTime": 1530641528098.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "jYrH6aigepe5uceTC",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530641529848.0,
+          "endTime": 1530641546766.0
+        },
+        "count": 2,
+        "knonws": ["endangered", "awareness"]
+      }, {
+        "performance": {
+          "_id": "ZHGG4GpJWkCMHnuAg",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530641548775.0,
+          "endTime": 1530641592371.0
+        },
+        "count": 3,
+        "knonws": ["Indigenous", "Massacre", "Wounded"]
+      }, {
+        "performance": {
+          "_id": "Eng52mxkD2vE8C66i",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530641595767.0,
+          "endTime": 1530641597738.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "jw5iHf6x4G3feLMxj",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530641602999.0,
+          "endTime": 1530641604544.0
+        },
+        "count": 0,
+        "knonws": []
+      }]
+    }, {
+      "user": {
+        "_id": "oBW75kMxPYBPS2bq3",
+        "username": "eval8",
+        "profile": {
+          "selfEvaluation": "\u9ad8\u4e2d\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "wv5b2b7kPtSPBF2sF",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530641619825.0,
+          "endTime": 1530641621247.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "pMYNfGX4DsCrbYHeJ",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530641622819.0,
+          "endTime": 1530641633225.0
+        },
+        "count": 1,
+        "knonws": ["reasonable"]
+      }, {
+        "performance": {
+          "_id": "tv5g8mwaiRK6NJddK",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530641636871.0,
+          "endTime": 1530641663487.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "Mqcm2hSewwqrmexjz",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530641666225.0,
+          "endTime": 1530641692831.0
+        },
+        "count": 7,
+        "knonws": ["species", "extinction", "destroyed", "options", "awareness", "expansion", "overhunting"]
+      }, {
+        "performance": {
+          "_id": "EvMh47gR4tKZGZYe3",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530641695409.0,
+          "endTime": 1530641729627.0
+        },
+        "count": 11,
+        "knonws": ["stunning", "claiming", "Indigenous", "abused", "Strait", "Cherokee", "neglected", "wealth", "Trail", "Territory", "exposure"]
+      }, {
+        "performance": {
+          "_id": "eJzkCX7bsibaWdQLn",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530641731685.0,
+          "endTime": 1530641733760.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "jrMndjespuh79yCiP",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530641738655.0,
+          "endTime": 1530641740517.0
+        },
+        "count": 0,
+        "knonws": []
+      }]
+    }, {
+      "user": {
+        "_id": "7brJDnB2XwWSonsBy",
+        "username": "eval9",
+        "profile": {
+          "selfEvaluation": "\u9ad8\u4e2d\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "soYGELvgpXmhBKFBx",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530641756203.0,
+          "endTime": 1530641757341.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "xcsWj3TQ8HgJph2em",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530641758812.0,
+          "endTime": 1530641759992.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "JSYvrzGxkdoPLkKAG",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530641761322.0,
+          "endTime": 1530641763408.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "fYjRRqQAv2jmwcDWm",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530641765176.0,
+          "endTime": 1530641767340.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "2CBQqTZxFZ8AWKdsm",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530641769086.0,
+          "endTime": 1530641770964.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "wJaxqecQCouhAkH86",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530641772587.0,
+          "endTime": 1530641774141.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "6tYxT3xFDSLz4mZ8E",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530641776155.0,
+          "endTime": 1530641777996.0
+        },
+        "count": 0,
+        "knonws": []
+      }]
+    }, {
+      "user": {
+        "_id": "NgA9x2BT3j6w42txa",
+        "username": "eval10",
+        "profile": {
+          "selfEvaluation": "\u5927\u5b66\u6c34\u5e73"
+        }
+      },
+      "count": 7,
+      "performances": [{
+        "performance": {
+          "_id": "x6fwr9zoqv6NHraRm",
+          "readingId": "KQ9F7PgqvNRi7fNAx",
+          "startTime": 1530641789123.0,
+          "endTime": 1530641790839.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "kiXrBeqE3yKm8AxNm",
+          "readingId": "JZF27T62Fi5Grkn85",
+          "startTime": 1530641792287.0,
+          "endTime": 1530641795450.0
+        },
+        "count": 1,
+        "knonws": ["justify"]
+      }, {
+        "performance": {
+          "_id": "Pfi4Sbksn9bk7wCkm",
+          "readingId": "F8zeNSzQAiL46W49Z",
+          "startTime": 1530641796902.0,
+          "endTime": 1530641811326.0
+        },
+        "count": 4,
+        "knonws": ["connections", "the", "local", "families"]
+      }, {
+        "performance": {
+          "_id": "fEYwLNYMEsk24NjMv",
+          "readingId": "6tffxhr9bwQcbqMd6",
+          "startTime": 1530641812982.0,
+          "endTime": 1530641831752.0
+        },
+        "count": 4,
+        "knonws": ["problem", "endangered", "extinction", "overhunting"]
+      }, {
+        "performance": {
+          "_id": "QkJayiGuZx5tKd6g7",
+          "readingId": "f4R5fnE3qjxJw8jhG",
+          "startTime": 1530641833673.0,
+          "endTime": 1530641864268.0
+        },
+        "count": 15,
+        "knonws": ["struggle", "endured", "suffering", "Indigenous", "abused", "signed", "document", "treaties", "Choctaw", "Cherokee", "eastern", "Oklahoma", "accomplished", "Massacre", "shocked"]
+      }, {
+        "performance": {
+          "_id": "vsEaZLREQcXtCnn3E",
+          "readingId": "sycFuheBBtEsgAWqQ",
+          "startTime": 1530641866228.0,
+          "endTime": 1530641868024.0
+        },
+        "count": 0,
+        "knonws": []
+      }, {
+        "performance": {
+          "_id": "sCXsSGXWJmfFANRe8",
+          "readingId": "k8Fwo4bcTMuNuNWR9",
+          "startTime": 1530641871261.0,
+          "endTime": 1530641873009.0
+        },
+        "count": 0,
+        "knonws": []
+      }]
+    }
+  ]
+}

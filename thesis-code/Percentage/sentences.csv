@@ -1,0 +1,139 @@
+sentence_id,reading_id,text,flesch_kincaid
+0,XcrJv7rscWuDeABF6,Mom went to the shop.,125.62
+1,XcrJv7rscWuDeABF6,She got me a pet.,125.62
+2,XcrJv7rscWuDeABF6,The pet Mom got from the pet shop was a fox.,119.53
+3,XcrJv7rscWuDeABF6,But the fox got out of the box.,122.58
+4,XcrJv7rscWuDeABF6,Mom said not to be sad.,124.61
+5,XcrJv7rscWuDeABF6,She will find the fox.,125.62
+6,XcrJv7rscWuDeABF6,She took the box.,126.64
+7,XcrJv7rscWuDeABF6,Mom was gone for a long time.,115.13
+8,XcrJv7rscWuDeABF6,Now Mom is back.,126.64
+9,XcrJv7rscWuDeABF6,She did find the fox!,125.62
+10,XcrJv7rscWuDeABF6,The fox is in the box.,124.61
+11,XcrJv7rscWuDeABF6,Mom has to chop food for the fox.,122.58
+12,XcrJv7rscWuDeABF6,I can sit with the fox.,124.61
+13,F5yiSWhxvAAH3kMzN,You answer questions all the time.,99.23
+14,F5yiSWhxvAAH3kMzN,How do you know that your answer is reasonable?,87.72
+15,F5yiSWhxvAAH3kMzN,It does not matter what subject you are studying.,87.72
+16,F5yiSWhxvAAH3kMzN,Your answer needs to make sense.,99.23
+17,F5yiSWhxvAAH3kMzN,Follow these steps after you get an answer.,80.28
+18,QQ7AqXJYnsjf4zhQ8,People are very social animals.,32.56
+19,QQ7AqXJYnsjf4zhQ8,We need to talk with and do things with other people.,102.61
+20,QQ7AqXJYnsjf4zhQ8,"We often understand ourselves better when we discuss our opinions, emotions and activities with other people.",38.31
+21,QQ7AqXJYnsjf4zhQ8,We need to make meaningful connections with friends and family.,69.79
+22,QQ7AqXJYnsjf4zhQ8,These connections help us put aside our frustrations and worries.,61.33
+23,QQ7AqXJYnsjf4zhQ8,We can focus on things that are important: the people we care about.,75.2
+24,QQ7AqXJYnsjf4zhQ8,Your local community is the area near your home.,79.26
+25,QQ7AqXJYnsjf4zhQ8,"It's where you work, play and go to school.",113.1
+26,QQ7AqXJYnsjf4zhQ8,It is the neighborhood where your family makes connections with other people.,50.84
+27,QQ7AqXJYnsjf4zhQ8,It's the places you feel like you belong.,97.2
+28,QQ7AqXJYnsjf4zhQ8,Communities grow and change over time.,56.93
+29,QQ7AqXJYnsjf4zhQ8,Families move from one city to another because of work or family situations.,41.36
+30,QQ7AqXJYnsjf4zhQ8,Older adults often move to smaller homes or vacation areas after their children have grown up.,55.24
+31,QQ7AqXJYnsjf4zhQ8,Their children move out to start families of their own.,86.71
+32,QQ7AqXJYnsjf4zhQ8,New families move in when others leave.,81.29
+33,QQ7AqXJYnsjf4zhQ8,"Basic services, such as police, fire, post office, health and public schools are in almost every community.",45.76
+34,QQ7AqXJYnsjf4zhQ8,"Businesses provide services to the community, too.",13.61
+35,QQ7AqXJYnsjf4zhQ8,Stores sell things that people need.,99.23
+36,QQ7AqXJYnsjf4zhQ8,Restaurants sell prepared food.,50.5
+37,QQ7AqXJYnsjf4zhQ8,Offices provide a variety of skilled work.,47.45
+38,QQ7AqXJYnsjf4zhQ8,The local city government is usually an elected mayor and city council.,50.84
+39,QQ7AqXJYnsjf4zhQ8,It is their job to listen to the people of the community and help them connect.,89.08
+40,QQ7AqXJYnsjf4zhQ8,"Some individuals may move on, but the community remains.",45.42
+41,fL8vQ5kepNxbEyAFD,Early Native American groups lived in different cultural regions.,20.04
+42,fL8vQ5kepNxbEyAFD,Their environments had different resources.,15.64
+43,fL8vQ5kepNxbEyAFD,"Each group specialized in making particular products or developing certain skills, based on their resources.",39.33
+44,fL8vQ5kepNxbEyAFD,"As they perfected their techniques, something exciting began to happen.",44.41
+45,fL8vQ5kepNxbEyAFD,"For the first time in their tribes' history, they had a surplus of materials.",82.65
+46,fL8vQ5kepNxbEyAFD,They had enough to meet their own needs with some left over.,101.59
+47,fL8vQ5kepNxbEyAFD,The conditions were perfect for an economy to develop.,45.42
+48,fL8vQ5kepNxbEyAFD,"In an economy, goods, services and often money are organized into a system to manage those resources.",28.84
+49,fL8vQ5kepNxbEyAFD,Native American groups began to work with each other to simplify their work and share items they wanted or needed.,59.64
+50,fL8vQ5kepNxbEyAFD,They began to barter as they began to interact with each other.,84.68
+51,fL8vQ5kepNxbEyAFD,Bartering is trading goods or services directly for other goods or services rather than using any form of money.,52.19
+52,fL8vQ5kepNxbEyAFD,Having the ability to barter with other tribes meant that it was easier on all the groups.,79.6
+53,fL8vQ5kepNxbEyAFD,No one group had to work as hard to make or find everything they needed for survival.,79.6
+54,fL8vQ5kepNxbEyAFD,Native American tribes would often travel long distances for the opportunity to trade with each other.,38.31
+55,fL8vQ5kepNxbEyAFD,"In between trading times, they would gather or create surplus products.",68.77
+56,fL8vQ5kepNxbEyAFD,They set things aside especially for the purpose of bartering with other tribes at their trade meetings.,54.22
+57,fL8vQ5kepNxbEyAFD,An additional benefit of trading between cultural regions was the ability to enjoy products that were impossible to make with the resources in the tribe's home territory.,27.15
+58,fL8vQ5kepNxbEyAFD,Tribal members of the Desert Southwest region  wanted tools fashioned from whalebone.,50.84
+59,fL8vQ5kepNxbEyAFD,There is no whalebone available in the desert.,46.44
+60,fL8vQ5kepNxbEyAFD,"However, they could get it from the tribes of the Pacific Northwest region, who had access to resources found on the beach or in the sea.",78.93
+61,fL8vQ5kepNxbEyAFD,Some people still use bartering today to get the something they need or want.,74.19
+62,fL8vQ5kepNxbEyAFD,"For example, you might offer to do the dishes for your brother if he will take you to the movies.",85.02
+63,fL8vQ5kepNxbEyAFD,"Especially in tough economic times, people return to this age-old way of getting things that they need.",62.68
+64,fL8vQ5kepNxbEyAFD,"We will probably always have some form of money, but we don't always have to use it.",71.14
+65,KSvRhEy6ZmEpH2F6p,History is often the story of the never-ending struggle for control over land.,58.28
+66,KSvRhEy6ZmEpH2F6p,People have traveled great distances for land.,55.91
+67,KSvRhEy6ZmEpH2F6p,They have endured pain and suffering for the chance to get land.,84.68
+68,KSvRhEy6ZmEpH2F6p,They have fought in bloody battles and wars to claim their own little corner of Earth.,89.08
+69,KSvRhEy6ZmEpH2F6p,Stories of explorers claiming new lands for their countries have one stunning thing in common.,73.17
+70,KSvRhEy6ZmEpH2F6p,"In culture after culture, native peoples have been overlooked and abused.",26.47
+71,KSvRhEy6ZmEpH2F6p,Indigenous people have often lived in a country for thousands of years before it was discovered.,46.78
+72,KSvRhEy6ZmEpH2F6p,"In Africa, it was the native African tribes who were abused.",51.85
+73,KSvRhEy6ZmEpH2F6p,In Australia it was the Aborigines and Torres Strait Islanders.,52.87
+74,KSvRhEy6ZmEpH2F6p,"In the Americas, it was the Native Americans, who were called Indians by mistake.",48.81
+75,KSvRhEy6ZmEpH2F6p,The U.S. government signed many peace treaties with Native Americans when the nation was young.,56.25
+76,KSvRhEy6ZmEpH2F6p,A peace treaty is a document in which both sides agree on the terms for peace.,89.08
+77,KSvRhEy6ZmEpH2F6p,"Unfortunately, these treaties were often unfair to Native Americans.",-5.34
+78,KSvRhEy6ZmEpH2F6p,Many natives did not understand English well.,55.91
+79,KSvRhEy6ZmEpH2F6p,They did not understand the treaty.,90.77
+80,KSvRhEy6ZmEpH2F6p,Some native leaders signed away their rights to land in order to get personal wealth.,73.17
+81,KSvRhEy6ZmEpH2F6p,They neglected the needs of their people.,89.75
+82,KSvRhEy6ZmEpH2F6p,The ultimate purpose of the treaties was to push Native Americans off their lands.,57.27
+83,KSvRhEy6ZmEpH2F6p,These were the lands where their people had lived long before the arrival of European explorers.,55.24
+84,KSvRhEy6ZmEpH2F6p,"During the l830s, the U.S. government forced the Choctaw, Cherokee, Creek, Seminole and other tribes off their land on the east side of the Mississippi River.",66.74
+85,KSvRhEy6ZmEpH2F6p,"They were marched around 1,200 miles to eastern Oklahoma, then known as Indian Territory.",57.27
+86,KSvRhEy6ZmEpH2F6p,Thousands died from disease and exposure on the way.,70.8
+87,KSvRhEy6ZmEpH2F6p,This was such a devastating event to the Native Americans that it became known as the Trail of Tears.,69.11
+88,KSvRhEy6ZmEpH2F6p,"Once that had been accomplished, settlers decided they should be able to have any land on the west side of the Mississippi River, too.",55.58
+89,KSvRhEy6ZmEpH2F6p,Several hundred Cheyenne were killed in the Sand Creek Massacre of 1864.,76.22
+90,KSvRhEy6ZmEpH2F6p,"In 1890, Lakota people were killed by soldiers at Wounded Knee, South Dakota.",66.74
+91,KSvRhEy6ZmEpH2F6p,"Sadly, they were killed even though they had already surrendered.",52.87
+92,KSvRhEy6ZmEpH2F6p,Many Americans are shocked and ashamed of the way native peoples were treated.,41.36
+93,KSvRhEy6ZmEpH2F6p,We cannot change what has been.,99.23
+94,KSvRhEy6ZmEpH2F6p,"However, we can learn from our past and never treat people this way again.",91.11
+95,z8fTCc88cGwMFekGq,"Great Britain's Prime Minister Winston Churchill delivered a speech to the House of Commons on June 4, 1940.",70.13
+96,z8fTCc88cGwMFekGq,Churchill explained that the British effort in World War II was not going well and that a German invasion of Britain was possible.,73.51
+97,z8fTCc88cGwMFekGq,"A gifted orator, Churchill knew he must convince the British people that victory would come someday.",55.24
+98,z8fTCc88cGwMFekGq,"When Churchill gave his speech, the U.S. had not yet entered World War II.",98.21
+99,z8fTCc88cGwMFekGq,"He references his hope that the New World, meaning the U.S., would join the war.",97.7
+100,z8fTCc88cGwMFekGq,Below is the end of his speech.,115.13
+101,z8fTCc88cGwMFekGq,"I have, myself, full confidence that if all do their duty, if nothing is neglected, and if the best arrangements are made, as they are being made, we shall prove ourselves once again able to defend our Island home, to ride out the storm of war, and to outlive the menace of tyranny, if necessary for years, if necessary alone.",19.04
+102,z8fTCc88cGwMFekGq,"At any rate, that is what we are going to try to do.",100.58
+103,z8fTCc88cGwMFekGq,That is the resolve of His Majesty's Government - every man of them.,67.76
+104,z8fTCc88cGwMFekGq,That is the will of Parliament and the nation.,96.18
+105,z8fTCc88cGwMFekGq,"The British Empire and the French Republic, linked together in their cause and in their need, will defend to the death their native soil, aiding each other like good comrades to the utmost of their strength.",51.86
+106,z8fTCc88cGwMFekGq,"Even though large tracts of Europe and many old and famous States have fallen or may fall into the grip of the Gestapo and all the odious apparatus of Nazi rule, we shall not flag or fail.",59.3
+107,z8fTCc88cGwMFekGq,"We shall go on to the end, we shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our Island, whatever the cost may be, we shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender, and even if, which I do not for a moment believe, this Island or a large part of it were subjugated and starving, then our Empire beyond the seas, armed and guarded by the British Fleet, would carry on the struggle, until, in God's good time, the New World, with all its power and might, steps forth to the rescue and the liberation of the old.",-37.8
+108,6iu3WfRciXWFGknSb,"Today, some type of animals are an endangered species.",36.96
+109,6iu3WfRciXWFGknSb,This means there are very few animals of that kind left on Earth.,92.12
+110,6iu3WfRciXWFGknSb,The animals could face extinction.,49.48
+111,6iu3WfRciXWFGknSb,Extinction is when all the animals of that kind die.,95.17
+112,6iu3WfRciXWFGknSb,"When a type of animal is extinct, it is gone forever.",68.77
+113,6iu3WfRciXWFGknSb,One problem for animals is that their habitat is sometimes destroyed by humans.,49.82
+114,6iu3WfRciXWFGknSb,"As human populations increase, more and more space is needed for people.",50.84
+115,6iu3WfRciXWFGknSb,Building areas for people to live pushed animals out of their natural homes.,58.28
+116,6iu3WfRciXWFGknSb,Forest and swamp habitats are the most threatened.,63.36
+117,6iu3WfRciXWFGknSb,Trees are cut down to make room for homes and businesses.,77.23
+118,6iu3WfRciXWFGknSb,Swamps are filled in so that neighborhoods can expand.,79.26
+119,6iu3WfRciXWFGknSb,The habitat is destroyed.,67.42
+120,6iu3WfRciXWFGknSb,The animals have nowhere else to go.,55.91
+121,6iu3WfRciXWFGknSb,"Without a habitat, the number of animals begins to go down.",68.77
+122,6iu3WfRciXWFGknSb,Humans must prevent the extinction of animals due to the loss of their habitat.,74.19
+123,6iu3WfRciXWFGknSb,We have to become more aware of animal populations when considering building and expansion projects.,22.41
+124,6iu3WfRciXWFGknSb,"Other options may not be as convenient, but the survival of the animals needs to be taken into consideration.",52.19
+125,6iu3WfRciXWFGknSb,Better planning and an awareness of how human actions affect animals can make a difference.,47.79
+126,6iu3WfRciXWFGknSb,It is still possible to maintain a diverse animal population for future generations to enjoy.,30.87
+127,6iu3WfRciXWFGknSb,Another major cause of endangerment of animals is overhunting by humans.,26.47
+128,6iu3WfRciXWFGknSb,The practice of shooting animals as a sport can quickly bring the animals to extinction.,64.71
+129,6iu3WfRciXWFGknSb,This is a worldwide problem.,83.32
+130,6iu3WfRciXWFGknSb,The governments of countries around the world must unite to agree on laws regarding animals.,56.25
+131,6iu3WfRciXWFGknSb,Some animals may have large enough populations so hunting will not endanger them.,49.82
+132,6iu3WfRciXWFGknSb,Others must be protected.,67.42
+133,6iu3WfRciXWFGknSb,There is still hope for animals who are already on the endangered species list.,57.27
+134,6iu3WfRciXWFGknSb,Some organizations are working hard to recreate habitats for them.,35.95
+135,6iu3WfRciXWFGknSb,Breeding programs are helping animal populations increase.,13.61
+136,6iu3WfRciXWFGknSb,We all have to be aware and think before we act.,85.69
+137,6iu3WfRciXWFGknSb,The things we do can affect more than just ourselves.,86.71
